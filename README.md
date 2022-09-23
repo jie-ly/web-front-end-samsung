@@ -1,17 +1,16 @@
-# Web Front-end
+메일 발송했습니다
 
-웹 프론트엔드 펀더멘탈 학습 저장소
+⭕ Cart 컨텍스트를 생성합니다.
+⭕ Cart 컨텍스트 프로바이더를 사용해 App 내부 Cart 컴포넌트에 카트 상태 및 업데이트 함수를 공급합니다.
+⭕ Cart 컨텍스트 값(value)을 컴포넌트에서 바로 꺼내 사용할 수 있도록 useCart 커스텀 훅을 작성합니다.
 
-- [x] 웹 프로그래밍 이해
-- [x] 웹 표준과 접근성
-- [x] HTML 마크업
-- [x] CSS 스타일링
-- [x] JavaScript 프로그래밍
-- [x] DOM API / 이벤트 핸들링
-- [x] 객체 지향, 함수 프로그래밍
-- [x] 비동기 통신 / 처리
-- [x] Node.js 런타임 환경
-- [x] Express 프레임워크
-- [x] Front-end 개발 환경
-- [ ] React UI 라이브러리
-- [ ] Next.js 프레임워크
+❌ Props 드릴링 된 Cart 상태 및 업데이트 함수를 각 컴포넌트에서 걷어냅니다. (정리)
+❌ useCart 훅을 사용해 카트 상태 및 업데이트 함수가 필요한 컴포넌트에서 꺼내 사용합니다.
+
+
+수정한 부분: 
+src/contents/cart.jsx
+src/components/index.js
+src/app/App.js
+
+src/components/Counter/Counter.js
